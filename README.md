@@ -41,3 +41,28 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+---
+
+## About the files:
+
+#### `app.py`:
+Contains the API POST request for the Machine Learning inference service.
+
+#### `make_prediction.sh`:
+Request including the payload and the curl request.
+
+#### `Dockerfile`:
+File that lists all the commands that make the container ready for prediction, including all the dependencies.
+
+#### `run_docker.sh`:
+Includes the commands to build the image from the DockerFile and run the container.
+
+#### `upload_docker.sh`:
+Includes the commands to push the image to DockerHub
+
+#### `run_kubernetes.sh`:
+Includes the commands to create a POD to run the container built from the image uploaded to DockerHub. It also forward 
+the port of the POD to the port of the host 
+
