@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![Gonzalob90](https://circleci.com/gh/Gonzalob90/p4-devops-udacity.svg?style=svg)](https://circleci.com/gh/Gonzalob90/p4-devops-udacity)
+
 
 ## Project Overview
 
